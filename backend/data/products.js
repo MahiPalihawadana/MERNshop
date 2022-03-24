@@ -1,55 +1,55 @@
 const products = [
   {
-    name: "PlayStation 5",
+    name: "Meat",
     imageUrl:
-      "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80",
+      "https://media.istockphoto.com/photos/fresh-raw-beef-steak-picture-id505207430?k=20&m=505207430&s=612x612&w=0&h=RMBFGAq0QZ3GbAULI5trxBHOx_C3TGoS1OXVpoCI2MQ=",
     description:
-      "PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment. Announced in 2019 as the successor to the PlayStation 4, the PS5 was released on November 12, 2020 in Australia, Japan, New Zealand, North America, Singapore, and South Korea, and November 19, 2020 onwards in other major markets except China and India.",
+      "meat, the flesh or other edible parts of animals (usually domesticated cattle, swine, and sheep) used for food, including not only the muscles and fat but also the tendons and ligaments",
     price: 499,
     countInStock: 15,
   },
   {
-    name: "Iphone 12",
+    name: "Vegetables",
     imageUrl:
-      "https://images.unsplash.com/photo-1605787020600-b9ebd5df1d07?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1463&q=80",
+      "https://media.istockphoto.com/photos/food-background-with-assortment-of-fresh-organic-vegetables-picture-id1203599923?b=1&k=20&m=1203599923&s=170667a&w=0&h=SxSyRNqrW8JQsyh6gCktCwcc16yX-Ymo2-I7NNTRtcA=",
     description:
-      "Welcome to a new era of iPhone. Beautifully bright 6.1-inch Super Retina XDR display.1 Ceramic Shield with 4x better drop performance.2 Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing, and playback. Powerful A14 Bionic chip. And new MagSafe accessories for easy attach and faster wireless charging.3 Let the fun begin.",
+      "fresh edible portions of certain herbaceous plants—roots, stems, leaves, flowers, fruit, or seeds.",
     price: 1099,
     countInStock: 10,
   },
   {
-    name: "Cannon EOS-1D",
+    name: "Fish",
     imageUrl:
-      "https://images.unsplash.com/photo-1519183071298-a2962feb14f4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "https://media.istockphoto.com/photos/great-white-sea-bream-many-saltwater-fish-picture-id535412961?k=20&m=535412961&s=612x612&w=0&h=d_YS1fUbGkKFP0BhEo97I79Votw_CLG3hRTyFa4MURk=",
     description:
-      "The EOS-1D X combines speed with image quality, to create the next generation camera for professionals. Full frame 18 megapixel sensor with Dual “DIGIC 5+” processors sets the standard, and up to 12 frames per second shooting takes it beyond.",
+      "Fish is a low-fat high quality protein. Fish is filled with omega-3 fatty acids and vitamins such as D and B2 (riboflavin). Fish is rich in calcium and phosphorus and a great source of minerals, such as iron, zinc, iodine, magnesium, and potassium.",
     price: 1300,
     countInStock: 5,
   },
   {
-    name: "Amazon Alexa",
+    name: "Fruits",
     imageUrl:
-      "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80",
+      "https://images.pexels.com/photos/1132047/pexels-photo-1132047.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     description:
-      "It is capable of voice interaction, music playback, making to-do lists, setting alarms, streaming podcasts, playing audiobooks, and providing weather, traffic, sports, and other real-time information, such as news. Alexa can also control several smart devices using itself as a home automation system.",
+      "Fruit is the sweet, fleshy, edible part of a plant. It generally contains seeds. Fruits are usually eaten raw, although some varieties can be cooked. They come in a wide variety of colours, shapes and flavours",
     price: 50,
     countInStock: 25,
   },
   {
-    name: "Audio Technica Headphones",
+    name: "Chocolate",
     imageUrl:
-      "https://images.unsplash.com/photo-1558756520-22cfe5d382ca?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80",
+      "https://media.istockphoto.com/photos/assortment-of-fine-chocolate-candies-white-dark-and-milk-chocolate-picture-id1148258027?k=20&m=1148258027&s=612x612&w=0&h=QjpETfJNaqC4OkhZj3GuNl5irjqXwnY0_RDVDvKBYcs=",
     description:
-      "Outfitted with 45mm large-aperture dynamic drivers and an over-ear, closed-back design, the ATH-M50x headphones deliver clarity, deep bass, and extended bandwidth (15 Hz to 28 kHz) while isolating you from outside sounds.",
+      "food product made from cocoa beans, consumed as candy and used to make beverages and to flavour or coat various confections and bakery products. Rich in carbohydrates, it is an excellent source of quick energy, and it also contains minute amounts of the stimulating alkaloids theobromine and caffeine.",
     price: 233,
     countInStock: 4,
   },
   {
-    name: "JBL FLIP 4",
+    name: "Bakery Products",
     imageUrl:
-      "https://images.unsplash.com/photo-1564424224827-cd24b8915874?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80",
+      "https://media.istockphoto.com/photos/cake-display-picture-id873169784?k=20&m=873169784&s=612x612&w=0&h=ZY2egf1cAAPJEgMW_r_v-XaGOjbwMWHjjFJTjmbhINk=",
     description:
-      "JBL Flip 4 is the next generation in the award-winning Flip series; it is a portable Bluetooth speaker that delivers surprisingly powerful stereo sound. This compact speaker is powered by a 3000mAh rechargeable Li-ion battery that offers up to 12 hours of continuous, high-quality audio playtime.",
+      "Bakery products, which include bread, rolls, cookies, pies, pastries, and muffins, are usually prepared from flour or meal derived from some form of grain. Bread, already a common staple in prehistoric times, provides many nutrients in the human diet.",
     price: 140,
     countInStock: 10,
   },
